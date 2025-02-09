@@ -1,7 +1,6 @@
 import os
 from datetime import datetime
 
-directory = r"C:\Users\Анастасия\Desktop\CLI_and_Testing_destination"
 
 def rename_photos(directory):
     for file in os.listdir(directory):

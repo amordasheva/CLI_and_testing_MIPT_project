@@ -6,6 +6,7 @@ from feature_directory_analysis import analyze_directory, get_size
 from feature_renaming import rename_photos
 from feature_copying_files import copy_photos
 
+
 class TestFeatures(unittest.TestCase):
 
     def setUp(self):

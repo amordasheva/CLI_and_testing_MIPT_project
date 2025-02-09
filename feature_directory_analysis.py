@@ -25,12 +25,3 @@ def analyze_directory(directory):
             directory_size.append((file, size))
     
     return directory_size
-
-directory_size = analyze_directory(directory)
-total_size = get_size(directory)
-
-for file, size in sorted(directory_size, key=lambda x: x[1], reverse=True):
-    print(f"{file}: {size} bytes")
-
-print(f"Total size of the directory: {total_size} bytes")
-print(f"Number of files: {len(directory_size)}")

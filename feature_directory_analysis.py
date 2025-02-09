@@ -1,6 +1,5 @@
 import os
 
-directory = r"C:\Users\Анастасия\Desktop\CLI_and_Testing_destination"
 
 def get_size(directory):
     total_size = 0
